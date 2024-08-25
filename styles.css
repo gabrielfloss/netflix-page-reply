@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+#container {
+    background: url("./img/background.jpeg");
+    padding-bottom: 180px;
+}
+
+#logo-netflix {
+    height: 46px;
+    margin: 20px;
+}
+
+#botao-entrar {
+    font-size: bold;
+    padding: 8px 18px;
+    border: none;
+    background-color: #e50914;
+    border-radius: 4px;
+    float: inline-end;
+    cursor: pointer;
+}
+#botao-entrar:hover{
+    opacity: 0.9;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 600px;
+}
+
+h1{
+    text-align: center;
+    font-size: 56px;
+    width: 500px;
+    margin: auto auto;
+    margin-top: 120px;
+}
+
+#paragrafo-20{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+
+}
+
+#paragrafo-assitir{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    input{
+        width: 500px;
+        height: 60px;
+        padding-left: 10px;
+        border-radius: 5px;
+        background-color: #222;
+        opacity: 0.5;
+        border: 1px solid white;
+    }
+    button{
+        width: 250px;
+        height: 60px;
+        background-color: #e50914;
+        border: none;
+        font-size: 24px;
+        border-radius: 5px;
+        cursor: pointer;
+        img{
+            margin: 1px;
+            float: right;
+            padding-right: 30px;
+        }
+    }
+    button:hover{
+        opacity: 0.9;
+    }
+}
+
+.footer-perguntas{
+    background-color: black;
+    border-top: 4px solid #303030;
+    padding: 100px 0px;
+
+    button{
+        width: 800px;
+        height: 70px;
+        background-color: #222;
+        border: none;
+        font-size: 24px;
+        margin-top: 40px;
+        text-align: left;
+        padding: 0px 24px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        cursor: pointer;
+    }
+    button:hover{
+       background-color: #414141;
+    }
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#img-fechar{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg);
+}
+#img-fechar-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+
+#pergunta{
+    width: 800px;
+    background-color: #222;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2px;
+    padding: 24px;
+    font-size: 28px;
+    display: none;
+    transition: 5s;
+    
+}
+
